@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="boutique.css">
+    <title>Payment</title>
+</head>
+
+<body>
+    <header>
+        <h1>Hiluna's collection</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Cart.html"  >cart</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="About.html" >About us</a></li>
+                <li><a href="payment.html">Payments</a></li>
+                <li><a href="promotions.html" class = "active">Promotions</a></li>
+            </ul>
+        </nav>
+    </header>
+    <header>
+        <h1>Payment Details</h1>
+    </header>
+
+    <main class="Hayat">
+        <form id="payment-form">
+            <label for="card-number">Card Number:</label>
+            <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456" required>
+
+            <label for="expiry-date">Expiry Date:</label>
+            <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" placeholder="123" required>
+
+            <label for="cardholder-name">Cardholder Name:</label>
+            <input type="text" id="cardholder-name" name="cardholder-name" placeholder="John Doe" required>
+
+            <button type="submit">Submit Payment</button>
+        </form>
+    </main>
+
+    <footer class="hilu">
+        <p>&copy; 2024 Your Brand. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+
